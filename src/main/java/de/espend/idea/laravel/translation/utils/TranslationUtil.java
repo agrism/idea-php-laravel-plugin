@@ -37,7 +37,7 @@ public class TranslationUtil {
 
             // invalid nested translation secure check
             // eg project name conflicts with pattern
-            if (namespace.split("/").length > 3) {
+            if (namespace.split("/").length > 10) {
                 continue;
             }
 
